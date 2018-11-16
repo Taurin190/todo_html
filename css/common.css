@@ -1,0 +1,43 @@
+header {
+  padding: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: #407b89;
+}
+
+.logo-text {
+  font-size: 36px;
+  padding: 20px 0;
+  display: inline-block;
+  font-family: Shopify Sans Web, Roboto, Segoe UI, Helvetica Neue, sans-serif;
+  height: 100px;
+  color: white;
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+  float: left;
+}
+
+.title {
+  color: white;
+}
+
+.right-menu {
+  margin-left: auto;
+  padding: 30px 10px;
+  height: 100px;
+}
+
+.main {
+  height: 400px;
+  padding: 130px;
+  margin: 0;
+  background-image: url("../img/title_background.jpg");
+}
+
+footer {
+  background-color: #e3e3e3;
+  color: black;
+}
