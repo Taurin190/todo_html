@@ -31,8 +31,8 @@ header {
 }
 
 .main {
-  height: 400px;
-  padding: 130px;
+  height: 500px;
+  padding: 180px;
   margin: 0;
   background-image: url("../img/title_background.jpg");
 }
@@ -40,4 +40,5 @@ header {
 footer {
   background-color: #e3e3e3;
   color: black;
+  padding: 70px 0;
 }
