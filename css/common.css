@@ -5,6 +5,10 @@ header {
   background-color: #407b89;
 }
 
+nav .container {
+  padding: 0;
+}
+
 .logo-text {
   font-size: 36px;
   padding: 20px 0;
@@ -26,8 +30,13 @@ header {
 
 .right-menu {
   margin-left: auto;
-  padding: 30px 10px;
+  padding: 40px 10px;
   height: 100px;
+}
+
+.nav-item a {
+  color: white;
+  margin: 0 5px;
 }
 
 .main {
