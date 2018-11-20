@@ -1,39 +1,19 @@
-header {
-  padding: 0px;
-  height: 100px;
-  width: 100%;
-  background-color: #407b89;
-}
-
-nav .container {
-  padding: 0;
-}
-
 .logo-text {
   font-size: 36px;
-  padding: 20px 0;
-  display: inline-block;
-  font-family: Shopify Sans Web, Roboto, Segoe UI, Helvetica Neue, sans-serif;
-  height: 100px;
   color: white;
 }
 
 .logo {
   display: inline-block;
-  width: 100px;
   float: left;
 }
 
 .title {
   color: white;
 }
-
 .right-menu {
-  margin-left: auto;
-  padding: 40px 10px;
-  height: 100px;
+  vertical-align: 100%;
 }
-
 .nav-item a {
   color: white;
   margin: 0 5px;
