@@ -22,8 +22,8 @@
 }
 
 .main {
-  height: 800px;
-  padding: 180px;
+  height: 100%;
+  padding: 180px; 
   margin: 0;
   background-image: url("../img/title_background.jpg");
 }
