@@ -16,7 +16,7 @@
   vertical-align: 100%;
 }
 
-.nav-item a {
+.nav-item>a {
   color: white;
   margin: 0 5px;
 }
@@ -31,6 +31,7 @@
 .avater-area {
   padding: 10px 0;
 }
+
 .avater-img {
   height: 30px;
   width: 30px;
