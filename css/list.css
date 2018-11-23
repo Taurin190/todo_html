@@ -1,0 +1,19 @@
+.list-area {
+  background-color: white;
+  padding: 30px 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 500px;
+  min-height: 100%;
+}
+
+.large-task-button-area {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.list-notfound {
+  font-size: 36px;
+  margin: 50px;
+  margin-bottom: 150px;
+}
