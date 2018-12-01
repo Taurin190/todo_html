@@ -43,11 +43,10 @@
                           <img src="./img/avater_image.png" class="avater-img">
                       </div>
                       <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#">メニュー1</a>
-                        <a class="dropdown-item" href="#">メニュー2</a>
-                        <a class="dropdown-item" href="#">メニュー3</a>
+                        <a class="dropdown-item" href="#">ヘルプ</a>
+                        <a class="dropdown-item" href="#">設定</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">その他リンク</a>
+                        <a class="dropdown-item" href="#">ログアウト</a>        
                       </div><!-- /.dropdown-menu -->
                     </div><!-- /.btn-group -->
                   </li>
@@ -58,9 +57,50 @@
   <div>
     <div class="main">
       <div class="container">
+        <div id="whole-task">
+          <div class="task-group">
+            <div class="task row">
+              <div class="task-id col-2"><a href="./detail.html">TODO-1</a></div>
+              <div class="task-name col-8">Bootstrapを使ってTODO ListのHTMLを作成する</div>
+              <span class="task-status col-1 badge badge-secondary">DOING</span>
+              <div class="task-icon col-1">
+                  <img src="./img/avater_image.png" class="avater-img">
+              </div> 
+            </div>
+            <div class="task row">
+                <div class="task-id col-2"><a href="./detail.html">TODO-2</a></div>
+                <div class="task-name col-8">Bootstrapを使ってTODO ListのHTMLを作成したものを組み込んだ
+                  Spring bootで簡単なサンプルアプリケーションを作る。
+                </div>
+                <div class="task-status col-1 badge badge-secondary">DOING</div>
+                <div class="task-icon col-1">
+                    <img src="./img/avater_image.png" class="avater-img">
+                </div> 
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <footer class="fixed-bottom">
+      <div class="container">
+        <div class="row copyright">
+          <div class="col-md-12 text-center">
+            <p>
+              <small class="block">&copy; 2018. All Rights Reserved.</small>
+              <small class="block">Designed by <a href="https://github.com/Taurin190" target="_blank">Taurin190</a> </small>
+            </p>
+            <p>
+              <ul class="list-inline inline-block">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   <!-- Bootstrap core JavaScript -->
   <script src="./vendor/jquery/jquery.min.js"></script>
   <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
